@@ -1,4 +1,4 @@
-
+// This is just sample javascript
 function save() {
   // Get the data from the HTML side
   var name = document.getElementById("user-name").value;
