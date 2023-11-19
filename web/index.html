@@ -1,0 +1,35 @@
+<html>
+
+<head>
+  <script type="application/javascript" src="/myapp.js"></script>
+  <link type="text/css" rel="stylesheet" href="/styles.css" />
+</head>
+
+<body onload="getUsers()">
+  <h1>Electronic Store</h1>
+  <div>
+    <label for="user-name">Name</label>
+    <input type="text" placeholder="Name" name="user-name" id="user-name" />
+  </div>
+  <div>
+    <label for="user-surname">Surname</label>
+    <input type="text" placeholder="Surname" name="user-surname" id="user-surname" />
+  </div>
+  <button onclick="save()">Save</button>
+  <div id="result-holder"></div>
+
+  <!-- This is a table that will display all our users -->
+  <table border="1">
+    <thead>
+      <td>ID</td>
+      <td>Name</td>
+      <td>Surname</td>
+    </thead>
+    <!-- The actual data goes here: -->
+    <tbody id="user-data">
+
+    </tbody>
+  </table>
+</body>
+
+</html>

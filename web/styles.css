@@ -1,0 +1,17 @@
+body {
+  padding: 50px;
+}
+
+h1 {
+  color: red;
+}
+
+input {
+  padding: 5px;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+
+table {
+  margin: 20px;
+}
