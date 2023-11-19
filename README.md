@@ -1,2 +1,2 @@
 # Samples
-my first get setup
+my first Git setup
